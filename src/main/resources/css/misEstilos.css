@@ -1,0 +1,40 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 11-dic-2023, 20:28:22
+    Author     : Pedro
+*/
+
+/* Estilo de raíz para toda la aplicación */
+.root {
+    -fx-background-color: bisque;  /* Color de fondo */
+    -fx-font-family: "serif";       /* Familia de fuente */
+    -fx-font-size: 12;              /* Tamaño de fuente */
+}
+
+/* Estilo de CLASE (RadioButton) */
+.RadioButton {
+    -fx-background-color: cyan;     /* Color de fondo */
+    -fx-font-family: "monospace";   /* Familia de fuente */
+}
+
+/* Estilo de NODO (Button) */
+Button {
+    -fx-background-color: green;    /* Color de fondo */
+}
+
+/* Estilo de CLASE (.miEstiloPropio) */
+.miEstiloPropio {
+    -fx-background-color: black;    /* Color de fondo */
+    -fx-underline: true;            /* Subrayado */
+    -fx-text-fill: white;           /* Color del texto */
+}
+
+/* Estilo por selectores de ID */
+
+#boton_cancelar {
+    -fx-background-color: red;    /* Color de fondo */
+    -fx-text-fill: white;           /* Color del texto */
+}
